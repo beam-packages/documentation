@@ -29,6 +29,14 @@ const config = {
     locales: ['en'],
   },
 
+  scripts: [
+    {
+      src: 'https://analytics.byteplug.io/js/script.outbound-links.js',
+      defer: true,
+      'data-domain': 'docs.beam-packages.org',
+    },
+  ],
+
   presets: [
     [
       'classic',
