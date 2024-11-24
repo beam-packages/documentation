@@ -81,42 +81,74 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Erlangsters Community',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Website',
+                href: 'https://www.erlangsters.org',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/bRmy5hQbTh',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Twitter/X',
+                href: 'https://x.com/erlangsters',
               },
+              {
+                label: 'Github',
+                href: 'https://github.com/erlangsters'
+              }
             ],
           },
           {
-            title: 'More',
+            title: 'OTPless Erlang',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/beam-packages',
+                label: 'Website',
+                href: 'https://www.otpless-erlang.org',
               },
+              {
+                label: 'Documentation',
+                href: 'https://docs.otpless-erlang.org',
+              },
+              {
+                label: 'Twitter/X',
+                href: 'https://x.com/otpless-erlang',
+              },
+              {
+                label: 'Reddit',
+                href: 'https://www.reddit.com/r/otpless_erlang'
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/otpless-erlang'
+              }
+            ],
+          },
+          {
+            title: 'BEAM Package Registry',
+            items: [
+              {
+                label: 'Website',
+                href: 'https://www.otpless-erlang.org'
+              },
+              {
+                label: 'Twitter/X',
+                href: 'https://x.com/beam-packages'
+              },
+              {
+                label: 'Reddit',
+                href: 'https://www.reddit.com/r/beam_packages'
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/beam-packages'
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Byteplug LLC.`,
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: prismThemes.github,
